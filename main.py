@@ -34,7 +34,7 @@ def guessing_game():
     # declare initial guess variable, which will change with user input
     guess = 0
 
-    chosen_number = random.randint(0, 100)
+    chosen_number = random.randint(1, 100)
 
     # runs through options while guess doesn't match chosen number
     while guess != chosen_number:
